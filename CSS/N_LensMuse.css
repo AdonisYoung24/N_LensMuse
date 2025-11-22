@@ -1,11 +1,10 @@
 *{
   margin: 0;
   padding: 0;
-  list-style-type: none;
   font-size: 1em;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-
+/* Main Colors Used*/
 :root{
   --background-color: grey;
   --font-color: rgb(0, 82, 0);
@@ -15,16 +14,35 @@
   --button-dark-mode: purple;
   --active-button: rgb(109, 253, 109);
 }
+/*Body, Headers*/
 
 body{
   background-color: var(--background-color);
   color: var(--dark-mode-font);
 }
 
+header{
+  text-align: right;
+}
+
+header h1{
+  font-size: 4em;
+  margin-right: 5px;
+}
+
+header h2{
+  font-size: 1.5em;
+  margin-right: 10%;
+}
+
+h3{
+  font-size: 1em;
+}
+
+/*Navbar*/
 nav ul{
   background-color: aliceblue;
   margin-top: 0;
-  list-style-type: none;
   overflow: hidden;
 }
 
@@ -43,4 +61,23 @@ nav li{
 nav li.active{
   background-color: var(--active-button);
   color: black;
+}
+
+/*Section Control*/
+section{
+  background-color: var(--button-dark-mode);
+  margin: 10px 20%;
+  
+}
+
+/*categories*/
+.categories ul{
+  list-style-type: none;
+}
+
+.categories li{
+  float: left;
+  width: 25%;
+  background-color: white;
+  margin: 10px;
 }
