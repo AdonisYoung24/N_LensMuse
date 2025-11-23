@@ -4,21 +4,11 @@
   font-size: 1em;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-/* Main Colors Used*/
-:root{
-  --background-color: grey;
-  --font-color: rgb(0, 82, 0);
-  --dark-mode-bg: rgb(10, 10, 10);
-  --dark-mode-font: rgb(109, 253, 109);
-  --button-color: rgb(255, 38, 255);
-  --button-dark-mode: purple;
-  --active-button: rgb(109, 253, 109);
-}
 /*Body, Headers. Links*/
 
 body{
-  background-color: var(--background-color);
-  color: var(--dark-mode-font);
+  background-color: #ffe6e6;
+  color: black;
 }
 
 header{
@@ -28,20 +18,23 @@ header{
 header h1{
   font-size: 4em;
   margin-right: 5px;
+  color: #00ff00;
 }
 
 header h2{
   font-size: 1.5em;
   margin-right: 10%;
+  color: #33ff33;
 }
 
 h3{
   font-size: 1em;
+  color: #00cc00;
 }
 
 /*Navbar*/
 nav ul{
-  background-color: aliceblue;
+  background-color: #ffcccc;
   margin-top: 0;
   overflow: hidden;
 }
@@ -52,44 +45,54 @@ nav ul li{
 }
 
 nav li{
-  background-color: var(--button-color);
+  background-color: #ff8080;
+  color: black;
   padding: 5px;
   margin: 1px;
   text-align: center;
   border-radius: 5px;
 }
 
-nav ul a{
-  color: var(--font-color);
-}
-
-nav ul a:hover{
-  background-color: var(--background-color);
+nav a:hover{
+  background-color: #ff0000;
 }
 
 nav li.active{
-  background-color: var(--active-button);
+  background-color: #ff0000;
   color: black;
 }
 
-/*Section Control*/
-section{
-  background-color: var(--button-dark-mode);
-  margin: 10px 20%;
-}
-
 /*categories*/
-.categories ul{
+.container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
   list-style-type: none;
 }
 
-.categories li{
-  float: left;
-  width: 30%;
-  background-color: white;
+.container .photo{
   margin: 10px;
+  background-color: white;
 }
 
-div {
-  padding: 50px 0;
+.photo h1{
+  text-align: center;
+  padding:  25px 0 25px 0;
+}
+
+/*background colors*/
+.aboutme{
+  background-color: #ffb3b3;
+}
+
+.categories{
+  background-color: #ff8080;
+}
+
+.contact{
+  background-color: #ff4d4d;
+}
+
+.social{
+  background-color: #ff1a1a;
 }
