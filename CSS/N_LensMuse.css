@@ -46,14 +46,14 @@ nav ul li{
 nav li{
   background-color: #ff8080;
   color: black;
-  padding: 5px;
-  margin: 1px;
+  padding: 0 5px 0 5px;
+  margin: 2px 1px 2px 1px;
   text-align: center;
   border-radius: 5px;
   font-size: 10px;
 }
 
-nav ul li a:hover{
+nav li:hover{
   background-color: #ff0000;
 }
 
@@ -70,7 +70,7 @@ nav li.active{
   list-style-type: none;
 }
 
-.container .photo{
+.photo{
   margin: 10px;
   background-color: #fff;
   padding: 10px;
@@ -97,12 +97,31 @@ nav li.active{
   width: 100%;
 }
 
+/*About me*/
+.aboutme .text{
+  display: grid;
+  grid-template-columns: 75% 25%; 
+  padding: 10px;
+  list-style-type: none;
+}
+
 /*Contactme*/
 .contact ul{
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   padding: 10px;
   list-style-type: none;
+}
+
+/*Social Media*/
+.social img{
+  margin: 10px 10px 10px 60px;
+  width: 60%;
+}
+
+.social img:hover{
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
 }
 
 /*background colors*/
