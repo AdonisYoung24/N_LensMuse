@@ -100,7 +100,7 @@ nav li.active{
 /*Contactme*/
 .contact ul{
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 25% 25% 25% 25%;
   padding: 10px;
   list-style-type: none;
 }
