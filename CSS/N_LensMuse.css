@@ -33,7 +33,7 @@ h3{
 
 /*Navbar*/
 nav ul{
-  background-color: #ffcccc;
+  background-color: rgb(255, 204, 204);
   margin-top: 0;
   overflow: hidden;
 }
@@ -126,18 +126,10 @@ nav li.active{
 }
 
 /*background colors*/
-.aboutme{
-  background-color: #ffb3b3;
+body{
+  background-image: linear-gradient(rgb(255, 205, 205), rgb(255, 50, 50));
 }
 
-.categories{
-  background-color: #ff8080;
-}
-
-.contact{
-  background-color: #ff4d4d;
-}
-
-.social{
-  background-color: #ff1a1a;
+.aboutme, .contact{
+  background-color: #ff5151;
 }
